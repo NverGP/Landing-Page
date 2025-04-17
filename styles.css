@@ -3,6 +3,12 @@
   justify-content: space-between;
   padding: 16px;
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
 img {
     max-width: 50%;
     display: block;
