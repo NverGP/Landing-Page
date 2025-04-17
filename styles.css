@@ -1,3 +1,8 @@
+.header {
+    display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
 img {
     max-width: 50%;
     display: block;
@@ -7,10 +12,14 @@ img {
     border: 2px dotted rgb(96 139 168);
     display: flex;
     align-items: flex-start;
+    flex-direction: row-reverse;
   }
   
   .media .content .heading{
     flex: 1;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
