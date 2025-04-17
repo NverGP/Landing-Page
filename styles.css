@@ -2,6 +2,7 @@
     display: flex;
   justify-content: space-between;
   padding: 16px;
+
 }
 
 ul {
@@ -17,8 +18,8 @@ img {
   .media {
     border: 2px dotted rgb(96 139 168);
     display: flex;
-    align-items: flex-start;
-    flex-direction: row-reverse;
+    align-items: space-between;
+    
   }
   
   .media .content .heading{
@@ -29,3 +30,15 @@ img {
     justify-content: center;
   }
   
+
+
+.section-two{
+    display: flex;
+    flex-direction: row;
+}
+
+.block{
+    border: 2px solid blue;
+    padding: 100px;
+   
+}
