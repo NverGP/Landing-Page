@@ -1,8 +1,14 @@
+.body {
+    font-family: Roboto;
+}
+
+.hero, .footer{
+    background-color: #1f2937;
+}
 .header {
     display: flex;
   justify-content: space-between;
   padding: 16px;
-
 }
 
 ul {
@@ -20,6 +26,12 @@ img {
     display: flex;
     align-items: space-between;
     
+  }
+
+  .heading {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
   }
   
   .media .content .heading{
@@ -41,4 +53,14 @@ img {
     border: 2px solid blue;
     padding: 100px;
    
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
