@@ -1,66 +1,132 @@
-.body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
     font-family: Roboto;
 }
 
 .hero, .footer{
     background-color: #1f2937;
 }
+.hero{
+  flex-shrink: 0;
+}
 .header {
     display: flex;
+    align-items: center;
   justify-content: space-between;
   padding: 16px;
+  color: #F9FAF8;
+  margin-left: 55px;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
+.image{
+  display: flex;
+  width: 500px;
+  height: 200px;
 }
-img {
-    max-width: 50%;
-    display: block;
-  }
+
+.logo{
+  font-weight: bold;
+}
+
   
   .media {
-    border: 2px dotted rgb(96 139 168);
+    padding: 60px;
+    height: 200px;
     display: flex;
-    align-items: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     
   }
 
-  .heading {
+.main {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    
   }
-  
-  .media .content .heading{
-    flex: 1;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
 
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  
+  width: 500px;
+  height: 200px;
+  font-size: 18px;
+  color: #E5E7Eb;
+}
 
-.section-two{
-    display: flex;
-    flex-direction: row;
+.subheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-blocks{
+  height: 140px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid blue;
 }
 
 .block{
     border: 2px solid blue;
-    padding: 100px;
+    width: 60px;
+  height: 60px;
    
 }
 
+.block-words {
+  height: 140px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid blue;
+}
+
+.words{
+  border: 2px solid blue;
+    width: 60px;
+  height: 60px;
+}
+
+.section-four {
+  border: 2px solid blue;
+}
+
 .footer{
-    position: fixed;
+    
     bottom: 0;
     left: 0;
     right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+    max-width: 50%;
+    display: block;
+    border: 2px solid blue;
+  }
+
+button:hover {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3882f6;
 }
