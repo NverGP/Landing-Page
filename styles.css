@@ -67,7 +67,7 @@ body {
 }
 
 .blue-blocks{
-  height: 140px;
+  height: 70px;
   padding: 16px;
   display: flex;
   align-items: center;
@@ -78,8 +78,8 @@ body {
 
 .block{
     border: 2px solid blue;
-    width: 60px;
-  height: 60px;
+    width: 100px;
+  height: 100px;
    
 }
 
