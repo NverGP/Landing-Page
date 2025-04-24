@@ -115,15 +115,26 @@ body {
 }
 
 .section-three {
-  width: 1200px;
+  width: 1300px;
   height: 250px;
   padding: 30px;
   background-color: #E5E7EB;
-  font-size: 36px;
-  color: light italic #1F2937;
+  color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+font-style: italic;
+font-size: 36px;
+}
+
+.person {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 200px;
 }
 
 .section-four {
