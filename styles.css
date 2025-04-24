@@ -96,7 +96,7 @@ body {
     border: 2px solid blue;
     width: 100px;
   height: 100px;
-   border-radius: 30px;
+   border-radius: 10px;
 }
 
 .block-words {
@@ -114,6 +114,18 @@ body {
   height: 100px;
 }
 
+.section-three {
+  width: 1200px;
+  height: 250px;
+  padding: 30px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: light italic #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-four {
   border: 2px solid blue;
 }
@@ -123,7 +135,6 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    position:fixed;
     display: flex;
     justify-content: center;
     align-items: center;
