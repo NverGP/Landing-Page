@@ -8,22 +8,27 @@ body {
     background-color: #1f2937;
 }
 .hero{
-  
   border: 2px solid blue;
 }
+
 .header {
+  border: 2px solid blue;
     display: flex;
     align-items: center;
   justify-content: space-between;
   padding: 16px;
   color: #F9FAF8;
   margin-left: 55px;
+
 }
 
 .image{
+  border: 2px solid blue;
   display: flex;
   width: 500px;
   height: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo{
@@ -32,13 +37,13 @@ body {
 
   
   .media {
+    border: 2px solid blue;
     padding: 60px;
     height: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
   }
 
 .main {
@@ -49,9 +54,9 @@ body {
   }
 
 .content{
+  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
-  
   width: 500px;
   height: 200px;
   font-size: 18px;
@@ -91,7 +96,7 @@ body {
     border: 2px solid blue;
     width: 100px;
   height: 100px;
-   
+   border-radius: 30px;
 }
 
 .block-words {
@@ -143,6 +148,6 @@ img {
 
 button:hover {
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition:background-color 0.3s ease;
   background-color: #3882f6;
 }
